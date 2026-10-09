@@ -1,0 +1,186 @@
+/* ==========================================================================
+   LIOUAÏ DIGITAL EDUCATION — TEXTES DE LA PAGE (FR / EN)
+   Modifiez le texte entre guillemets. Ne changez pas les noms à gauche
+   (ex. "hero.titre") : la page s'en sert pour placer chaque texte.
+   Les balises <strong>, <em> et <br> sont autorisées.
+   ========================================================================== */
+
+window.LIOUAI_TEXTES = {
+  fr: {
+    "meta.titre": "Liouaï Digital Education",
+    "nav.methode": "Méthode",
+    "nav.contenus": "Contenus",
+    "nav.projets": "Projets",
+    "nav.public": "Pour qui",
+    "nav.contact": "Échangeons",
+    "nav.langue": "Choisir la langue",
+
+    "hero.kicker": "Conception de contenu pédagogique",
+    "hero.titre": "Learn It <span class=\"acc\">Yourself!</span>",
+    "hero.texte": "Comprendre un modèle ne se résume pas à survoler une formule ou à subir une boîte noire. Je conçois des manuels, parcours et supports où l'on code, calcule à la main, mesure et confronte la théorie au réel.",
+    "hero.cta1": "Voir les projets",
+    "hero.cta2": "Me contacter sur LinkedIn",
+
+    "etape.label": "La méthode, à chaque chapitre",
+    "etape1.titre": "Intuition",
+    "etape1.texte": "Une image claire avant toute formule.",
+    "etape2.titre": "Démonstration",
+    "etape2.texte": "Pas à pas, sans affirmation gratuite.",
+    "etape3.titre": "Pratique outillée",
+    "etape3.texte": "Python, simulations et tableurs transparents.",
+    "etape4.titre": "Mesure et réel",
+    "etape4.texte": "Confronter le modèle aux données.",
+
+    "contenus.titre": "Ce qui caractérise mes contenus",
+    "contenus.texte": "Des ressources exigeantes en mathématiques appliquées, science des données et informatique.",
+    "p1.titre": "Rigueur mathématique et clarté",
+    "p1.texte": "Pas d'affirmation gratuite ni de jargon inutile. Chaque concept est relié à une intuition claire et à une démonstration pas à pas.",
+    "p1.tags": "théorie des graphes|algèbre linéaire|probabilités|analyse",
+    "p2.titre": "Pratique outillée",
+    "p2.texte": "L'apprentissage passe par la manipulation directe en Python, des simulations interactives et des feuilles de calcul transparentes.",
+    "p2.tags": "pandas|networkx|numpy|scipy",
+    "p3.titre": "Cas d'usage concrets et réels",
+    "p3.texte": "Modélisation de réseaux professionnels, analyse d'impact, optimisation de tournées ou de flux de production.",
+    "p3.tags": "réseaux|impact|optimisation",
+    "p4.titre": "Une IA intégrée avec lucidité",
+    "p4.texte": "L'IA accélère la documentation et le prototypage, toujours encadrée par une validation méthodologique rigoureuse et une réflexion ouverte sur le droit d'auteur.",
+    "p4.tags": "validation|droit d'auteur",
+
+    "formats.titre": "Ce que je conçois",
+    "f1.titre": "Manuels et workbooks",
+    "f1.texte": "De l'intuition à la démonstration, avec exercices corrigés.",
+    "f2.titre": "Parcours",
+    "f2.texte": "Des progressions guidées pour acquérir des bases solides.",
+    "f3.titre": "Supports interactifs",
+    "f3.texte": "Notebooks, simulations et tableurs pour manipuler les modèles.",
+    "f4.titre": "Ressources pour équipes",
+    "f4.texte": "Formations et contenus coconstruits avec vous.",
+
+    "projets.titre": "Projets",
+    "projets.texte": "Manuels et workbooks publiés ou en cours de conception.",
+    "projets.une": "À la une",
+    "projets.quoi": "Ce que c'est",
+    "projets.parcours": "Le parcours",
+    "projets.conception": "Comment il a été conçu",
+    "projets.public": "Public",
+    "projets.format": "Format",
+    "projets.outils": "Outils",
+    "projets.themes": "Thèmes",
+    "projets.details": "Détails",
+    "projets.fermer": "Fermer",
+    "projets.lien": "Voir la page du projet",
+    "projets.tous": "Tous les projets",
+    "statut.publie": "Publié",
+    "statut.test": "Version de test",
+    "statut.prep": "En préparation",
+
+    "public.titre": "Pour qui ?",
+    "a1.titre": "Adultes en reconversion",
+    "a1.texte": "Reprendre les bases solidement, à son rythme, avec des exemples concrets.",
+    "a2.titre": "Étudiants",
+    "a2.texte": "Relier le cours à la pratique et gagner en autonomie sur les outils.",
+    "a3.titre": "Professionnels et équipes",
+    "a3.texte": "Monter en compétences avec des ressources sur mesure, coconstruites avec vous.",
+
+    "contact.titre": "Former vos équipes, coconstruire des ressources ou explorer de nouveaux formats d'apprentissage ?",
+    "contact.texte": "Échangeons en direct ou contactez-moi par message.",
+    "contact.bouton": "Me contacter sur LinkedIn",
+    "contact.mail": "Ou par e-mail",
+    "contact.copier": "Copier",
+    "contact.copie": "Copié",
+
+    "footer.droits": "© 2026 Liouaï Digital Education"
+  },
+
+  en: {
+    "meta.titre": "Liouaï Digital Education",
+    "nav.methode": "Method",
+    "nav.contenus": "Content",
+    "nav.projets": "Projects",
+    "nav.public": "Who it's for",
+    "nav.contact": "Let's talk",
+    "nav.langue": "Choose language",
+
+    "hero.kicker": "Learning content design",
+    "hero.titre": "Learn It <span class=\"acc\">Yourself!</span>",
+    "hero.texte": "Understanding a model is more than skimming a formula or trusting a black box. I design handbooks, learning paths and materials where you code, calculate by hand, measure and test theory against reality.",
+    "hero.cta1": "See the projects",
+    "hero.cta2": "Contact me on LinkedIn",
+
+    "etape.label": "The method, in every chapter",
+    "etape1.titre": "Intuition",
+    "etape1.texte": "A clear picture before any formula.",
+    "etape2.titre": "Proof",
+    "etape2.texte": "Step by step, with no unsupported claims.",
+    "etape3.titre": "Hands-on tools",
+    "etape3.texte": "Python, simulations and transparent spreadsheets.",
+    "etape4.titre": "Measure against reality",
+    "etape4.texte": "Test the model against the data.",
+
+    "contenus.titre": "What defines my content",
+    "contenus.texte": "Demanding resources in applied mathematics, data science and computer science.",
+    "p1.titre": "Mathematical rigour and clarity",
+    "p1.texte": "No unsupported claims and no needless jargon. Every concept is tied to a clear intuition and a step-by-step proof.",
+    "p1.tags": "graph theory|linear algebra|probability|analysis",
+    "p2.titre": "Hands-on practice",
+    "p2.texte": "Learning happens by doing: Python, interactive simulations and transparent spreadsheets.",
+    "p2.tags": "pandas|networkx|numpy|scipy",
+    "p3.titre": "Real, concrete use cases",
+    "p3.texte": "Modelling professional networks, impact analysis, route and production-flow optimisation.",
+    "p3.tags": "networks|impact|optimisation",
+    "p4.titre": "AI used with care",
+    "p4.texte": "AI speeds up documentation and prototyping, always under rigorous methodological checks and with open thinking about copyright.",
+    "p4.tags": "validation|copyright",
+
+    "formats.titre": "What I design",
+    "f1.titre": "Handbooks and workbooks",
+    "f1.texte": "From intuition to proof, with worked solutions.",
+    "f2.titre": "Learning paths",
+    "f2.texte": "Guided progressions to build solid foundations.",
+    "f3.titre": "Interactive materials",
+    "f3.texte": "Notebooks, simulations and spreadsheets to work with models.",
+    "f4.titre": "Resources for teams",
+    "f4.texte": "Training and content co-designed with you.",
+
+    "projets.titre": "Projects",
+    "projets.texte": "Handbooks and workbooks, published or in progress.",
+    "projets.une": "Featured",
+    "projets.quoi": "What it is",
+    "projets.parcours": "The path",
+    "projets.conception": "How it was built",
+    "projets.public": "Audience",
+    "projets.format": "Format",
+    "projets.outils": "Tools",
+    "projets.themes": "Topics",
+    "projets.details": "Details",
+    "projets.fermer": "Close",
+    "projets.lien": "Open the project page",
+    "projets.tous": "All projects",
+    "statut.publie": "Published",
+    "statut.test": "Test version",
+    "statut.prep": "In progress",
+
+    "public.titre": "Who is it for?",
+    "a1.titre": "Career changers",
+    "a1.texte": "Rebuild solid foundations at your own pace, with concrete examples.",
+    "a2.titre": "Students",
+    "a2.texte": "Connect coursework to practice and become fluent with the tools.",
+    "a3.titre": "Professionals and teams",
+    "a3.texte": "Build skills with tailored resources, co-designed with you.",
+
+    "contact.titre": "Training your teams, co-designing resources or exploring new learning formats?",
+    "contact.texte": "Let's talk directly, or send me a message.",
+    "contact.bouton": "Contact me on LinkedIn",
+    "contact.mail": "Or by email",
+    "contact.copier": "Copy",
+    "contact.copie": "Copied",
+
+    "footer.droits": "© 2026 Liouaï Digital Education"
+  }
+};
+
+/* Adresse du profil LinkedIn et e-mail affichés sur la page */
+window.LIOUAI_CONTACT = {
+  linkedin: "https://www.linkedin.com/in/cedricbohnert/",
+  email: "liouai.digital.education@gmail.com"
+};
