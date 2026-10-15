@@ -73,7 +73,7 @@ window.LIOUAI_PROJETS = [
     illustration: "algebre",
     lien: "https://liouai-digital-education.github.io/algebre-lineaire-cbm/",
     fr: {
-      titre: "Algèbre linéaire : penser, calculer, interpréter",
+      titre: "Algèbre linéaire appliquée à la data science",
       sousTitre: "Un parcours Computer-Based Maths avec Python",
       resume: "Un cours en ligne où Python fait le calcul et où vous faites tout le reste : formuler le problème, choisir les outils, critiquer le résultat, l'expliquer. Neuf modules et trois projets, chacun parti d'un problème réel.",
       public: "Adultes en reconversion, étudiants et professionnels qui ont les bases de Python et veulent comprendre l'algèbre linéaire derrière la data.",
@@ -102,7 +102,7 @@ window.LIOUAI_PROJETS = [
       ]
     },
     en: {
-      titre: "Linear Algebra: Think, Compute, Interpret",
+      titre: "Linear Algebra applied to data science",
       sousTitre: "A Computer-Based Maths course with Python (in French)",
       resume: "An online course where Python does the computing and you do everything else: framing the problem, choosing the tools, criticising the result, explaining it. Nine modules and three projects, each starting from a real problem.",
       public: "Career changers, students and professionals who know basic Python and want to understand the linear algebra behind data. The course is in French.",
