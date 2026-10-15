@@ -20,8 +20,11 @@ Pour comprendre un modèle, survoler une formule ou faire confiance à une boît
 
 ## Projet à la une
 
-**Les mathématiques de LinkedIn. Mesurer avant d'agir : un manuel pour stratèges.**
-Ce workbook apprend à lire la forme de son réseau LinkedIn : cercles, ponts, liens faibles et communautés. On y travaille avec la théorie des graphes, le TF-IDF et le test A/B. Les calculs se font d'abord à la main, puis au tableur, puis en Python, sur un jeu de données fictif et reproductible.
+**Algèbre linéaire : penser, calculer, interpréter. Un parcours Computer-Based Maths avec Python.**
+Un cours en ligne gratuit où Python fait le calcul et où l'apprenant fait tout le reste : formuler le problème, choisir les outils, critiquer et expliquer le résultat. Neuf modules, de NumPy à la décomposition en valeurs singulières, et trois projets intégrateurs (recommandation de films, influence dans un réseau, reconnaissance de chiffres manuscrits), en 52 notebooks Jupyter.
+🔗 https://liouai-digital-education.github.io/algebre-lineaire-cbm/ · code source : https://github.com/liouai-digital-education/algebre-lineaire-cbm
+
+**Aussi en cours :** *Les mathématiques de LinkedIn. Mesurer avant d'agir : un manuel pour stratèges* (version de test).
 
 ---
 

@@ -66,8 +66,76 @@ window.LIOUAI_PROJETS = [
 
   /* ---------------- Projet 1 : À la une ---------------- */
   {
-    id: "maths-de-linkedin",
+    id: "algebre-lineaire-cbm",
     vedette: true,
+    statut: "publie",
+    annee: "2026",
+    illustration: "algebre",
+    lien: "https://liouai-digital-education.github.io/algebre-lineaire-cbm/",
+    fr: {
+      titre: "Algèbre linéaire : penser, calculer, interpréter",
+      sousTitre: "Un parcours Computer-Based Maths avec Python",
+      resume: "Un cours en ligne où Python fait le calcul et où vous faites tout le reste : formuler le problème, choisir les outils, critiquer le résultat, l'expliquer. Neuf modules et trois projets, chacun parti d'un problème réel.",
+      public: "Adultes en reconversion, étudiants et professionnels qui ont les bases de Python et veulent comprendre l'algèbre linéaire derrière la data.",
+      format: "Site web interactif · 52 notebooks Jupyter · gratuit, licence CC BY-NC 4.0",
+      themes: ["Vecteurs et similarité", "Systèmes linéaires", "Matrices", "Moindres carrés", "Valeurs propres", "SVD et ACP"],
+      outils: ["Python", "NumPy", "Matplotlib", "pandas", "Jupyter", "Jupyter Book"],
+      quoi: "Ce parcours suit le référentiel Computer-Based Maths : chaque notion part d'une question concrète (mélanger des lumières, équilibrer un trafic, classer des pages web, compresser une image) et traverse quatre étapes, définir, abstraire, calculer, interpréter. Le calcul à la main reste présent sur de petites tailles pour construire l'intuition ; la machine prend le relais sur les vraies données. Chaque notebook se termine par un bilan qui alimente un profil de compétences.",
+      chiffres: [
+        { valeur: "9", label: "modules, de NumPy à la SVD" },
+        { valeur: "3", label: "projets intégrateurs au choix" },
+        { valeur: "52", label: "notebooks avec exercices et corrigés" },
+        { valeur: "~70 h", label: "de travail en autonomie" }
+      ],
+      parcours: [
+        { etape: "M0–M2", texte: "Faire calculer la machine, mesurer la ressemblance entre vecteurs, résoudre des systèmes." },
+        { etape: "M3–M5", texte: "Transformer avec des matrices, inverser, chercher l'information redondante." },
+        { etape: "M6–M8", texte: "Ajuster des données imparfaites, prévoir le long terme, garder l'essentiel d'une donnée." },
+        { etape: "Projets", texte: "Recommander des films, mesurer l'influence dans un réseau, reconnaître des chiffres manuscrits." }
+      ],
+      conception: [
+        { titre: "Un référentiel reconnu", texte: "Le parcours encode les compétences du projet Computer-Based Maths : chaque activité déclare celles qu'elle travaille, et une matrice de couverture vérifie l'équilibre." },
+        { titre: "Un gabarit fixe", texte: "Tous les notebooks suivent la même séquence : définir la question, parier sur le résultat, abstraire avec un schéma et un calcul à la main, calculer, interpréter, critiquer." },
+        { titre: "Des données réelles", texte: "CO₂ de Mauna Loa, réseau du club de karaté de Zachary, mariages florentins, chiffres manuscrits de l'UCI : les modèles sont confrontés à de vraies mesures." },
+        { titre: "Tout est exécuté et testé", texte: "Chaque notebook est exécuté de bout en bout avant publication ; les modules des projets sont livrés avec leurs tests." },
+        { titre: "Ouvert", texte: "Le cours est gratuit, publié sous licence CC BY-NC 4.0, et son code source est sur GitHub." }
+      ]
+    },
+    en: {
+      titre: "Linear Algebra: Think, Compute, Interpret",
+      sousTitre: "A Computer-Based Maths course with Python (in French)",
+      resume: "An online course where Python does the computing and you do everything else: framing the problem, choosing the tools, criticising the result, explaining it. Nine modules and three projects, each starting from a real problem.",
+      public: "Career changers, students and professionals who know basic Python and want to understand the linear algebra behind data. The course is in French.",
+      format: "Interactive website · 52 Jupyter notebooks · free, CC BY-NC 4.0 licence",
+      themes: ["Vectors and similarity", "Linear systems", "Matrices", "Least squares", "Eigenvalues", "SVD and PCA"],
+      outils: ["Python", "NumPy", "Matplotlib", "pandas", "Jupyter", "Jupyter Book"],
+      quoi: "The course follows the Computer-Based Maths framework: every idea starts from a concrete question (mixing lights, balancing traffic, ranking web pages, compressing an image) and goes through four steps: define, abstract, compute, interpret. Hand calculation stays on small sizes to build intuition; the machine takes over on real data. Each notebook ends with a self-assessment that feeds a skills profile.",
+      chiffres: [
+        { valeur: "9", label: "modules, from NumPy to SVD" },
+        { valeur: "3", label: "capstone projects to choose from" },
+        { valeur: "52", label: "notebooks with exercises and solutions" },
+        { valeur: "~70 h", label: "of self-paced work" }
+      ],
+      parcours: [
+        { etape: "M0–M2", texte: "Make the machine compute, measure similarity between vectors, solve systems." },
+        { etape: "M3–M5", texte: "Transform with matrices, invert, find redundant information." },
+        { etape: "M6–M8", texte: "Fit imperfect data, predict the long run, keep the essence of a dataset." },
+        { etape: "Projects", texte: "Recommend films, measure influence in a network, recognise handwritten digits." }
+      ],
+      conception: [
+        { titre: "A recognised framework", texte: "The course encodes the Computer-Based Maths competencies: each activity declares the ones it trains, and a coverage matrix checks the balance." },
+        { titre: "A fixed template", texte: "Every notebook follows the same sequence: define the question, bet on the result, abstract with a diagram and a hand calculation, compute, interpret, criticise." },
+        { titre: "Real data", texte: "Mauna Loa CO₂, Zachary's karate club, Florentine marriages, UCI handwritten digits: models are confronted with real measurements." },
+        { titre: "Everything is run and tested", texte: "Every notebook is run end to end before publication; the project modules come with their tests." },
+        { titre: "Open", texte: "The course is free, released under a CC BY-NC 4.0 licence, and its source code is on GitHub." }
+      ]
+    }
+  },
+
+  /* ---------------- Projet 2 ---------------- */
+  {
+    id: "maths-de-linkedin",
+    vedette: false,
     statut: "test",
     annee: "2026",
     illustration: "reseau",
@@ -134,7 +202,7 @@ window.LIOUAI_PROJETS = [
     }
   },
 
-  /* ---------------- Projet 2 ---------------- */
+  /* ---------------- Projet 3 ---------------- */
   {
     id: "maths-du-data-analyst",
     vedette: false,
@@ -162,7 +230,7 @@ window.LIOUAI_PROJETS = [
     }
   },
 
-  /* ---------------- Projet 3 ---------------- */
+  /* ---------------- Projet 4 ---------------- */
   {
     id: "explorations-arithmetiques",
     vedette: false,
